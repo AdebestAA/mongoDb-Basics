@@ -6,7 +6,7 @@ const connectToDb = async()=>{
     try {
         const res =  await mongoose.connect("mongodb+srv://mongocluster:1234567890@cluster-mongo-basics.raes7yv.mongodb.net/")
 
-        // console.log(res);
+       
         console.log("db connected");
         
         
